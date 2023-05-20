@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    margin: 5px;
+    border: 2px solid #000;
+    width: 30%;
+    border-radius: 30px; 
+    background-color: bisque;  
+    max-width: 200px;
+    min-height: 300px;
+    display: inline-block;
+}
+.card:hover{
+    box-shadow: 4px 4px 4px black;
+}
+.image img{
+    width: 95%;
+    margin: 2.5%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.title{
+    font-size: 10px;
+    text-align: center;
+}
+.desc p{
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+button{
+    text-align: center;
+    padding: auto;
+    margin-top: 20px;
+}
+.desc{
+    text-align: center;
+}
+.main{
+    /* display: inline-block; */
+}
