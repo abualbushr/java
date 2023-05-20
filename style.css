@@ -1,0 +1,84 @@
+.header{
+    border: 1px solid black;
+    width: 99%;
+    height: 100px;
+    background-image: url("bg4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.side-left{
+    border: 1px solid rgb(0, 0, 0);
+    width: 20%;
+    height: 500px;
+    float: left;
+    background-color: rgba(217, 219, 195, 0.384);
+}
+.side-rite{
+    border: 1px solid rgb(0, 0, 0);
+    width: 79%;
+    height: 500px;
+    float: left;
+    background-color: #912788;
+}
+.tile{
+    border: 1px solid rgb(0, 0, 0);
+    width: 99%;
+    height: 400px;
+    margin-top: 500px;
+    background-image: url("bgi.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.in-head{
+    border: 1px solid black;
+    width: 90%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 5%;
+    background-color: rgb(235, 238, 240);
+}
+.in-left{
+    border: 1px solid black;
+    width: 40%;
+    height: 368px;
+    margin-left: 5%;
+    float: left;
+    margin-top: 10px;
+}
+.in-rite{
+    border: 1px solid black;
+    width: 40%;
+    height: 368px;
+    margin-left: 10%;
+    float: left;
+    margin-top: 10px;
+}
+.tile h1{
+    font-size: 50px;
+    color: #ffebcd;
+    text-align: center;
+}
+.side-rite h2{
+    color: #6f09f3;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+}
+.side-rite .in-rite{
+    background-color: antiquewhite; 
+}
+.side-rite .in-left{
+    background-color:  beige;
+}
+.side-rite li{
+    font-size: 20px;
+    text-align: center;
+    list-style: circle;
+ 
+}
+.in-head h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(153, 35, 182);
+}
